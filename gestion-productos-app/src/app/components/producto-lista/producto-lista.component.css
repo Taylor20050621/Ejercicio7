@@ -1,0 +1,68 @@
+.container {
+  padding: 20px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.alerta {
+  padding: 12px;
+  border: 1px solid #b8daff;
+  border-radius: 4px;
+  color: #245580;
+  background-color: #eaf4ff;
+}
+
+.tabla-productos {
+  width: 100%;
+  margin-top: 16px;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabla-productos th {
+  background-color: #f0f0f0;
+}
+
+.disponible,
+.agotado {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.disponible {
+  color: #216b38;
+  background-color: #e3f3e7;
+}
+
+.agotado {
+  color: #8a2929;
+  background-color: #f9e3e3;
+}
+
+.btn-eliminar {
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  background-color: #dc3545;
+  cursor: pointer;
+}
+
+.btn-eliminar:hover {
+  background-color: #bd2837;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 12px;
+    overflow-x: auto;
+  }
+}
